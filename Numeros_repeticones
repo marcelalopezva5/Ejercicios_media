@@ -1,0 +1,23 @@
+# BuCLES: Conocemos el nuemro de repeticiones
+
+def bucle_1():
+    suma=0 # es una variable acumuladora
+    for cont in range(1,11):
+     num=int(input("Dime un numero:"))
+     suma=num+suma
+    print(suma)
+    
+bucle_1()
+
+Dime un numero:1
+Dime un numero:2
+Dime un numero:3
+Dime un numero:4
+Dime un numero:5
+Dime un numero:6
+Dime un numero:7
+Dime un numero:8
+Dime un numero:9
+Dime un numero:10
+55
+> 
